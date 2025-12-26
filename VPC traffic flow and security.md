@@ -1,8 +1,6 @@
-<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
+
 
 # VPC Traffic Flow and Security
-
-**Project Link:** [View Project](http://learn.nextwork.org/projects/aws-networks-security)
 
 **Author:** Cody Chinothai  
 **Email:** cchinothai@gmail.com
@@ -20,6 +18,9 @@
 ### What is Amazon VPC?
 
 Amazon VPC is your own delegated space within the cloud where you can control your resources and the traffic that flows into them. It's useful to control client/user requests from a cloud security perspective to ensure that you are safely transferring data to and from your resources. 
+
+<img width="1522" height="806" alt="image" src="https://github.com/user-attachments/assets/279f1c56-4232-46b6-8962-cb26d3f71e1c" />
+
 
 ### How I used Amazon VPC in this project
 
@@ -40,6 +41,8 @@ One thing I didn't expect in this project was the default route tables, security
 Route tables map the expected traffic from our resources within our subnet. Think of it like a GPS. Just like a GPS helps people get to their destination in a city, a route table is a table of rules, called routes, that decide where the data in your network should go.
 
 Every subnet in your VPC needs to be linked to a route table, because the table tells your subnet's traffic where to travel to send and receive data. For example, if you have a web server (i.e. an EC2 instance) hosting a website, the EC2 instance's subnet needs a route table that knows how to direct incoming traffic to the website.
+
+<img width="1489" height="825" alt="image" src="https://github.com/user-attachments/assets/fd711796-a8a7-43e7-baf6-baaf95b6a0e4" />
 
 
 
@@ -88,6 +91,9 @@ By default, AWS allows actions for all outbound data from your resource.
 Network ACLs are similar to security groups but they operate at the VPC level. 
 
 Think of Network ACLs as traffic cops stationed at every entry and exit point of your subnet, checking each data packet against a table of ACL rules before allowing them through.
+
+<img width="1304" height="830" alt="image" src="https://github.com/user-attachments/assets/4b3d5244-9bb8-45f9-820d-c75288cb32d1" />
+
 
 ### Security groups vs. network ACLs
 
