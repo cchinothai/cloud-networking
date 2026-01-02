@@ -92,6 +92,8 @@ Internet gateways are connections that bridge your VPC traffic to the global int
 
 Attaching an internet gateway to a VPC means that the resources in your private network are now connected to the internet, and network traffic can flow between the two in both directions via the internet gateway. 
 
+** note: you will have to configure the internet gateway connection in the subnet's route table.
+
 ![Image](http://learn.nextwork.org/enthusiastic_turquoise_radiant_monstera_deliciosa/uploads/aws-networks-vpc_4ae90410)
 
 ---
