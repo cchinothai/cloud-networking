@@ -68,6 +68,8 @@ Security groups define the allowable inbound/outbound traffic for each resource 
 
 If VPCs are cities and subnets are neighbourhoods, a security group is a security checkpoint, or security guard, at the entrance for each building (resource) in that neighbourhood (subnet).
 
+** Note: Network ACLs are stateless and only filter traffic based on rules, while Security groups are stateful and track connections.  
+
 ### Inbound vs Outbound rules
 
 Inbound rules are the protocol specifications that are allowed to access your resource. 
