@@ -1,5 +1,4 @@
 
-
 # VPC Traffic Flow and Security
 
 **Author:** Cody Chinothai  
@@ -29,12 +28,6 @@ In today's project, I used Amazon VPC to configure our own route tables, securit
 ### One thing I didn't expect in this project was...
 
 One thing I didn't expect in this project was the default route tables, security groups, and network ACLs that were already setup for our existing VPC. 
-
-### This project took me...
-
-// Project time: ~1-2 hours. 
-
----
 
 ## Route tables
 
