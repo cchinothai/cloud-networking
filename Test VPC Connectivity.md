@@ -1,13 +1,6 @@
-<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
-
-# Testing VPC Connectivity
-
-**Project Link:** [View Project](http://learn.nextwork.org/projects/aws-networks-connectivity)
 
 **Author:** Cody Chinothai  
 **Email:** cchinothai@gmail.com
-
----
 
 ## Testing VPC Connectivity
 
@@ -17,38 +10,15 @@
 
 ## Introducing Today's Project!
 
-### What is Amazon VPC?
-
 Today I Learned: 
 
 ⬆️ Connect to your Public Server with EC2 Instance Connect: You used EC2 Instance Connect in your AWS Management Console to securely SSH into your EC2 instance without the hassle of managing SSH keys. This also required a cheeky update to your Public Server's security group settings.
 
-
-
-
-
 🤝 Test EC2 connectivity with ping: You made sure that your public and private servers can communicate with each other using the ping command. You also had to update your Private Server's NACL settings to make this work!
-
-
-
 
 
 🛜 Verify VPC internet access with curl: You confirmed that your virtual network can reach the internet by using the curl command to fetch data directly from web servers, even grabbing entire HTML files in the process.
 
-
-### How I used Amazon VPC in this project
-
----------------------
-
-### One thing I didn't expect in this project was...
-
----------------------
-
-### This project took me...
-
------------------
-
----
 
 ## Connecting to an EC2 Instance
 
